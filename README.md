@@ -1,12 +1,12 @@
 <!-- ======================================================
-   BefitwithJemal Gym - README.md
+   BefitwithJemal Gym-milestone-project-1 - README.md
    Author: Jemal Hangela
    Project: User Centric Frontend Development Milestone 1
    Last Updated:06 March 2026
 ====================================================== -->
 
 # BEFITWITHJEMAL GYM
-BefitwithJemal Gym is a fully responsive multi-page fitness website developed for the User Centric Frontend Development Milestone Project, as part of the Level 5 Diploma in Web Application Development.
+BefitwithJemal Gym-milestone-project-1 is a fully responsive multi-page fitness website developed for the User Centric Frontend Development Milestone Project, as part of the Level 5 Diploma in Web Application Development.
 The project demonstrates semantic HTML5 structure, professional CSS styling, responsive design principles, accessibility awareness.
 
 
@@ -21,7 +21,7 @@ The website represents a modern fitness centre offering:
 - Contact form for enquiries
 - Google Maps integration
 
-## ser Experience (UX)
+## User Experience (UX)
 ### Project Goals
 - Provide clear and intuitive navigation
 - Present gym services in a structured format
@@ -83,7 +83,7 @@ BEFITWITHJEMAL GYM-MILESTONE-PROJECT-1
 
 
 ## Deployment
-
+ Githup pages link: https://github.com/hangelaj/BefitwithJemal-Gym-milestone-project-1.git
 This project is deployed using GitHub Pages.
 
 To deploy:
@@ -94,6 +94,7 @@ To deploy:
 4. Select folder: / (root) or /pages
 5. Save
 
+<<<<<<< HEAD
 ## The live site will be available at:
 
 I attempted to deploy my website and provide a live link; however, I encountered a technical issue and the link is currently not working. Sam advised me to submit the project without the GitHub Pages link at this time.
