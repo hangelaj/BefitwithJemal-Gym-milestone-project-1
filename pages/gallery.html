@@ -6,26 +6,19 @@
 ======================================================-->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Gallery</title>
-
-<!-- ===== CSS Styles ===== -->
 <link rel="stylesheet" href="../assets/css/style.css">
-
 </head>
 
 <body>
-<!-- ===== Header ===== -->
+
 <header>
-<h1>Gym Gallery</h1>
+<img src="../assets/images/logo.png" class="logo" alt="Gym Logo">
+<h1>Gallery</h1>
 </header>
 
-<!-- ===== Navigation ===== -->
 <nav>
 <ul>
 <li><a href="../index.html">Home</a></li>
@@ -36,26 +29,24 @@
 </ul>
 </nav>
 
-<!-- ===== Content Section ===== -->
 <section class="section">
-
-    <!-- ===== Gallery ===== -->
 <h2>Our Gym</h2>
 
 <div class="gallery">
-
-<img src="../assets/images/community.png">
-<img src="../assets/images/Machines.jpg">
-<img src="../assets/images/equipment.jpg">
-<img src="../assets/images/welcoming-gym-community.png">
-
+<a href="#img1"><img src="../assets/images/community.png" alt="Community"></a>
+<a href="#img2"><img src="../assets/images/Machines.jpg" alt="Machines"></a>
+<a href="#img3"><img src="../assets/images/Equipment.png" alt="Equipment"></a>
 </div>
+
+<!-- LIGHTBOX -->
+<div id="img1" class="lightbox"><a href="#">×</a><img src="../assets/images/community.png"></div>
+<div id="img2" class="lightbox"><a href="#">×</a><img src="../assets/images/Machines.jpg"></div>
+<div id="img3" class="lightbox"><a href="#">×</a><img src="../assets/images/Equipment.jpg"></div>
 
 </section>
 
-<!-- ===== Footer ===== -->
 <footer>
-<p>© 2026 BefitwithJemal Gym</p>
+   <p>© 2026 BefitwithJemal Gym</p>
 </footer>
 
 </body>
