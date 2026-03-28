@@ -163,26 +163,44 @@ I attempted to deploy my website and provide a live link over the last few weeks
 ##  Validation
 
 ### HTML Validation
-
 * Tested using W3C Validator
 * No major errors found
 
 ### CSS Validation
-
 * Tested using Jigsaw Validator
 * No errors found
 
----
+----
+## Development Process
 
-##  Deployment
+The project followed a structured approach:
+- Planning (wireframes)
+- Design (layout & UX)
+- Development (HTML & CSS)
+- Testing and validation
+- Deployment
+
+## Challenges
+
+- Image paths
+- Responsive layout
+- Consistency across pages
+
+## Solutions
+
+- Correct folder structure
+- CSS Grid
+- Reusable layout design
+
+## Deployment
 
 The project is deployed using GitHub Pages:
 
-👉 https://hangelaj.github.io/BefitwithJemal-Gym-milestone-project-1/
+ https://hangelaj.github.io/BefitwithJemal-Gym-milestone-project-1/
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 
 * Semantic HTML used
 * Alt text for images
@@ -191,7 +209,7 @@ The project is deployed using GitHub Pages:
 
 ---
 
-## 📌 Attribution
+## Attribution
 
 Bootstrap (reference only): https://getbootstrap.com/
 Google Fonts: https://fonts.google.com/
@@ -199,9 +217,10 @@ Font Awesome: https://fontawesome.com/
 
 All custom HTML and CSS code was written by the developer.
 
+
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Add backend functionality
 * Add booking system
@@ -211,7 +230,7 @@ All custom HTML and CSS code was written by the developer.
 
 ---
 
-## 🧾 Reflection & Evaluation
+## Reflection & Evaluation
 
 This project helped me develop skills in HTML and CSS, particularly in creating responsive layouts and structuring content effectively.
 
@@ -221,7 +240,7 @@ In the future, I would improve the project by adding JavaScript functionality an
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Jemal Hangela
 Level 5 Diploma in Web Application Development
