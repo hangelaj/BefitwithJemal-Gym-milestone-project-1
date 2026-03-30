@@ -2,47 +2,45 @@
    BefitwithJemal Gym-milestone-project-1 - README.md
    Author: Jemal Hangela
    Project: User Centric Frontend Development Milestone 1
-   Last Updated:06 March 2026
+   Last Updated:28 March 2026
 ====================================================== -->
 
 # BEFITWITHJEMAL GYM
 
 ##  Project Overview
 
-BefitwithJemal Gym is a fully responsive multi-page fitness website developed for the (User Centric Front-End Development Milestone Project).
+BefitwithJemal Gym is a fully responsive multi-page fitness website developed for the User Centric Front-End Development Milestone Project.
+The website provides users with clear access to gym services, class schedules, membership pricing, and a simple way to join the gym.
 
-The website allows users to explore gym services, view class schedules, and join the gym through a simple and intuitive interface.
+===
 
----
+## Purpose & Value
 
-## Purpose
+The purpose of this website is to:
+1. Provide clear information about gym services
+2. Allow users to view class schedules and pricing
+3. Enable users to join the gym easily
+4. Help users locate the gym using Google Maps
+This creates value by improving accessibility, usability, and user experience for potential gym members.
 
-The purpose of this website is to provide users with a clear and professional platform to:
-
-* Learn about gym services
-* View class schedules and pricing
-* Join the gym easily
-* Locate the gym using Google Maps
-
----
+===
 
 ## Target Audience
+- Beginners starting their fitness journey
+- Intermediate gym users
+- Individuals seeking structured training
+- Community-focused fitness enthusiasts
 
-* Beginners starting their fitness journey
-* Intermediate gym users
-* Individuals looking for structured training
-* Community-focused fitness enthusiasts
-
----
+===
 
 ## User Stories
                                                       
-1. As a user, I want to understand what the gym offers so I can decide to join.
-2. As a user, I want to view class schedules and prices
-3. As a user, I want to contact or join the gym easily.
-4. As a user, I want to view images of the gym environment.
+1. As a user, I want to understand what the gym offers so I can decide to join.(About page explains services)
+2. As a user, I want to view class schedules and prices.(Classes + pricing tables)
+3. As a user, I want to contact or join the gym easily.(Contact page form)
+4. As a user, I want to view images of the gym environment.(Gallery page)
 
----
+===
 
 ## Design & Wireframes
 
@@ -52,40 +50,50 @@ Wireframes were created to plan layout and structure for Pages:
 2. Gallery Page → Image Grid + Lightbox
 3. Classes Page → Table + Opening Hours
 4. Contact Page→ Form + Map
-5. See attached Wireframes PDF.
+5. Wireframes are included in the project submission.(See attached Wireframes PDF)
 
----
+===
 
 ##  Features
+1. Semantic HTML structure
+2. CSS styling with Flexbox/Grid
+3. Embedded YouTube video
+4. Image gallery with lightbox
+5. Weekly class schedule with pricing
+6. Membership pricing table
+7. Contact/join form
+8. Google Maps integration
+9. Consistent navigation across all pages
 
-* Responsive layout using CSS Grid
-* Hero section with background image
-* Embedded YouTube video
-* Image gallery with CSS lightbox
-* Weekly schedule with pricing
-* Opening hours section
-* Join form
-* Google Maps integration
-* Consistent navigation across all pages
-
----
+===
 
 ## Technologies Used
 
-* HTML5
-* CSS3
-* Visual Studio Code
-* GitHub
-* Google Maps Embed
-* Chrome Developer Tools
+- HTML5
+- CSS3
+- Visual Studio Code
+- GitHub
+- Google Maps Embed
+- Chrome Developer Tools
 
----
+===
 
 ## Project Structure
-
 assets/
   css/style.css
   images/
+    logo.png
+    train.jpg
+    community.png
+    equipment.png
+    Machines.jpg
+    meet-our-team.png
+    welcoming-gym-community.png
+    screenshots/
+      home.png
+      gallery.png
+      contact.png
+      mobile.png
 
 pages/
   about.html
@@ -95,150 +103,104 @@ pages/
 
 index.html
 README.md
-```
 
----
 
 ## Screenshots
 
 ### Home Page
-![alt text](assets/images/screenshots/Home.png)
+![Home](assets/images/screenshots/home.png)
 
 ### Gallery Page
-![alt text](assets/images/screenshots/Gallery.png)
+![Gallery](assets/images/screenshots/gallery.png)
 
 ### Contact page and join us Form
 
-![alt text](<assets/images/screenshots/contact-Join Us.png>)
+![Contact](<assets/images/screenshots/contactjoinus.png>)
 
 ### About page
-![alt text](assets/images/screenshots/About.png)
+![About](assets/images/screenshots/about.png)
 
-###Classes page
-![alt text](assets/images/screenshots/Classes.png)
+### Classes page
+![Classes](assets/images/screenshots/Classes.png)
 
-## assets/images/screenshots/Video screenshot-Recording .mp4
+## Screenshots Video Recording included in the project submission
 
-
-<<<<<<< HEAD
-## Deployment
- Githup pages link: https://github.com/hangelaj/BefitwithJemal-Gym-milestone-project-1
-=======
 ### Mobile View
->>>>>>> 58f8958 (improvements after the result feedbak)
 
 ![Mobile](assets/images/screenshots/mobile.png)
 
----
+===
+### Testing
+Device Testing    Device	Result
 
-<<<<<<< HEAD
-## The live site will be available at: https://hangelaj.github.io/BefitwithJemal-Gym-milestone-project-1/
-I attempted to deploy my website and provide a live link over the last few weeks; however, I encountered a technical issue and the link is currently not working. Sam advised me to submit the project without the GitHub Pages live link at that time and finaly I have sorted please check the above live link as shown above.
-## Website Work on All Screens
-=======
-##  Testing
+Mobile	         Fully responsive
+Tablet	         Layout correct
+Desktop	         Fully functional
 
-### Device Testing
->>>>>>> 58f8958 (improvements after the result feedbak)
+## Feature Testing
+### Feature	      Test Performed	          Result
+Navigation	      All links tested	       Pass
+Images	         Load correctly	           Pass
+Video	           Plays correctly	         Pass
+Form	           Required fields work	     Pass
+Gallery	         Lightbox works	           Pass
+Map	Loads        correctly	               Pass
 
-| Device  | Result           |
-| ------- | ---------------- |
-| Mobile  | Fully responsive |
-| Tablet  | Layout correct   |
-| Desktop | Fully functional |
+### Bug Fixes               Issue	Resolution
+Image not loading	            Fixed file path
+Validation error (iframe)	    Used CSS width instead
+Section warning	               Added headings
 
-### Feature Testing
+## Validation
+- HTML Validated using W3C Validator = No critical errors
+- CSS Validated using Jigsaw Validator = No errors
 
-| Feature    | Test                 | Result |
-| ---------- | -------------------- | ------ |
-| Navigation | Click all links      | Pass   |
-| Images     | Load correctly       | Pass   |
-| Video      | Plays correctly      | Pass   |
-| Form       | Required fields work | Pass   |
-| Gallery    | Lightbox works       | Pass   |
-| Map        | Loads location       | Pass   |
-
----
-
-##  Validation
-
-### HTML Validation
-* Tested using W3C Validator
-* No major errors found
-
-### CSS Validation
-* Tested using Jigsaw Validator
-* No errors found
-
-----
 ## Development Process
 
-The project followed a structured approach:
+The project followed a structured development lifecycle:
 - Planning (wireframes)
-- Design (layout & UX)
+- Design (layout & UI)
 - Development (HTML & CSS)
-- Testing and validation
+- Testing & validation
 - Deployment
-
-## Challenges
-
-- Image paths
-- Responsive layout
-- Consistency across pages
-
-## Solutions
-
-- Correct folder structure
-- CSS Grid
-- Reusable layout design
 
 ## Deployment
 
 The project is deployed using GitHub Pages:
 
- https://hangelaj.github.io/BefitwithJemal-Gym-milestone-project-1/
-
----
+https://hangelaj.github.io/BefitwithJemal-Gym-milestone-project-1/
 
 ## Accessibility
-
-* Semantic HTML used
-* Alt text for images
-* Clear navigation
-* Good color contrast
-
----
+- Semantic HTML used
+- Alt text for all images
+- Clear navigation
+- Good contrast
 
 ## Attribution
-
 Bootstrap (reference only): https://getbootstrap.com/
 Google Fonts: https://fonts.google.com/
 Font Awesome: https://fontawesome.com/
 
-All custom HTML and CSS code was written by the developer.
+#### All custom HTML and CSS code was written by the developer.
 
-
----
-
-##  Future Improvements
-
-* Add backend functionality
-* Add booking system
-* Add login system
-* Improve animations
-* Add dark mode
-
----
+## Future Improvements
+- Add backend functionality
+- Add booking system
+- Add login system
+- Improve animations
+- Add dark mode
 
 ## Reflection & Evaluation
 
-This project helped me develop skills in HTML and CSS, particularly in creating responsive layouts and structuring content effectively.
+This project improved my understanding of HTML and CSS, especially in building responsive layouts and structuring content effectively.
 
-One challenge I faced was ensuring correct file paths for images and maintaining consistency across multiple pages. This was resolved by carefully structuring folders and testing links.
+A key challenge was managing file paths and ensuring consistency across multiple pages. This was resolved by organizing files correctly and testing thoroughly.
 
-In the future, I would improve the project by adding JavaScript functionality and backend integration to make the website fully interactive.
 
----
+Another challenge was validation errors, which were fixed by following W3C standards.
+
+
+In the future, I would enhance this project by adding JavaScript and backend functionality to create a fully interactive system.
 
 ## Author
 

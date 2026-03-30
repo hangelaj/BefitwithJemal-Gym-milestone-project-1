@@ -79,6 +79,13 @@ object-fit:cover;
 margin-top:20px;
 }
 
+.logo{
+width:80px;
+display:block;
+margin:auto;
+margin-bottom:10px;
+}
+
 /* Gallery */
 .gallery{
 display:grid;
