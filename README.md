@@ -123,11 +123,13 @@ README.md
 ### Classes page
 ![Classes](assets/images/screenshots/Classes.png)
 
+### Testing Page
+![Test](assets/images/screenshots/test.png)
+
 ## Screenshots Video Recording included in the project submission
 
 ### Mobile View
-
-![Mobile](assets/images/screenshots/mobile.png)
+![Mobile](assets/images/screenshots/mobile.png.png)
 
 ===
 ### Testing
